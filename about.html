@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
+
   <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY3H9EE6Q9"></script>
@@ -7,86 +8,17 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-EY3H9EE6Q9');
     </script>
-    <script src="../assets/js/color-modes.js"></script>
+    <script src="assets/js/color-modes.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="AI News Aggregator">
-    <title>Neurabuzz.net: AI-based News Aggregator</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="description" content="Neurabuzz.net: All top tech news from all sources on a single page! AI-curated. Unfiltered!">
+    <title>Neurabuzz.net: All top tech news from all sources on a single page! AI-curated. Unfiltered!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-    </style>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/news.css" rel="stylesheet">
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -155,32 +87,60 @@
       <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-          <span class="fs-4">Neurabuzz.net: AI-based News Aggregator</span>
+          <span class="fs-4">Neurabuzz.net</span>
         </a>
     
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link active" aria-current="page">About</a></li>
+          <li class="nav-item"><a href="https://discord.gg/Gv6JRdtS" class="nav-link">Join Discord</a></li>
         </ul>
       </header>
+
+    <p class="fs-5 col-md-8">All <a href="about.html#topnews"><b>top tech news</b></a> from <a href="about.html#allsources"><b>all sources</b></a> on a single page! <a href="about.html#aicurated"></a>AI-curated</a>.<a href="about.html#unfiltered"><b>Unfiltered!</b></a></p>
+
+    <hr class="col-3 col-md-2">
 
     <h2>About Neurabuzz.net</h2>
 
     <p class="col-md-8">
-      Neurabuzz is AI-based news aggregator service. It collects news on technology, cybersecurity, artificial intelligence, crypto and startups over
-      more than 200 sources and aggregates them using artificial intelligence methods (deep learning) without any human editing. This model of news aggregation could be
-      scaled in future to personalized aggregated and categorized news feeds for individual and professional use.
+      Neurabuzz is AI-powered news aggregator. The idea of this project is to aggreage all <b>top tech news</b> from <b>all sources</b> on a single page.
+      Core principles are the following:
     </p>
+
+    <h3>Curated by AI</h3><a id="aicurated"></a>
+    <p>AI automatically groups same news stories from multiple sources, presenting them compactly on a single page without duplication.<br/>
+    No human input. No editorial bias. 100% AI-driven aggregation.<br/>
+    See a link that doesn't belong in its group? Please, click the “×” next to it to report it as off-topic. The accuracy of the aggregator will gradually improve.</p>
+
+    <h3>Top News</h3><a id="topnews"></a>
+    <p>The idea is simple: major news is covered by many sources.<br/>
+    Neurabuzz ranks stories by that principle. The more sources report it, the higher it appears.</p>
+
+    <h3>Unfiltered!</h3><a id="unfiltered"></a>
+    <p>If at least <b>two</b> independent sources report a story, it gets shown.<br/>
+       That's it! That's the sole measure of importance. That's the only rule.
+       No other filters applied. No extra criteria</p>
+
+    <h3>All Sources</h3><a id="allsources"></a>
+    <p>The ultimate goal of this project is to cover all available tech news sources.<br/>
+       Could not find any source? Let us know via "sources" channel of project's <a href="https://discord.gg/Gv6JRdtS">Discord server</a></p>
+
+    <h3>Why Tech News?</h3>
+    Staying informed about technology is about understanding how the future is being built. Technology is the engine that drives the evolution of our civilization: it reshapes economies, redefines communication, transforms how we learn, govern, create, and even how we think. 
+    Each breakthrough, from AI and biotechnology to clean energy and quantum computing, shifts the boundaries of what societies can achieve and how individuals can live.
+    To follow tech news, then, is to stay in touch with the pulse of civilization itself. It allows us to anticipate societal shifts, adapt our skills, and make thoughtful decisions as citizens, professionals, and humans shaping the world that technology continuously reinvents. 
+    Join our <a href="https://discord.gg/Gv6JRdtS">Discord server</a>.
    
     <div class="container">
       <footer class="col-md-5 pt-5 my-5 text-body-secondary border-top">
-      Created by Andrei Khobnia &middot; &copy; 2024</br>
+      Created by Andrei Khobnia &middot; &copy; 2025</br>
       By using this website you agree to the following <a href="terms.html">Terms of Use</a> and <a href="privacy.html">Privacy Note</a>.</br>
       All citations from third party sources are the property of the third party copyright holders and are 
       <a href="https://www.copyright.gov/help/faq/faq-fairuse.html">fairly used</a> on this site with 
       appropriate attribution of the source just for news reporting purposes.
       </footer>
     </div>
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
